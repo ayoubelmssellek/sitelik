@@ -7,21 +7,18 @@ const Hero = () => {
       role: 'Frontend Developer',
       icon: <Code className="w-8 h-8" />,
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      skills: ['React.js', 'Tailwind CSS', 'JavaScript', 'Responsive UI']
     },
     {
       name: 'Ayoub Fekri',
       role: 'Backend Developer',
       icon: <Database className="w-8 h-8" />,
       image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
-      skills: ['Laravel', 'PHP', 'MySQL', 'REST API']
     },
     {
       name: 'Mustapha Arab',
       role: 'UI/UX Designer',
       icon: <Palette className="w-8 h-8" />,
       image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
-      skills: ['Figma', 'UI/UX Design', 'Vue.js', 'Bootstrap']
     }
   ];
 
