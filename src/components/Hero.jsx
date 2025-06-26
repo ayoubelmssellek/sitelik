@@ -69,16 +69,6 @@ const Hero = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
                 <p className="text-primary-600 font-semibold mb-4">{member.role}</p>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {member.skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="bg-secondary-100 text-secondary-800 px-3 py-1 rounded-full text-sm font-medium"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
               </div>
             </div>
           ))}
