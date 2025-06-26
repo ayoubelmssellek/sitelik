@@ -36,12 +36,6 @@ const Technologies = () => {
       technologies: ['Cloudinary', 'Firebase', 'Stripe', 'AWS', 'Vercel', 'Netlify']
     },
     {
-      title: 'Mobile',
-      icon: <Smartphone className="w-6 h-6" />,
-      color: 'green',
-      technologies: ['React Native', 'Flutter', 'Progressive Web Apps', 'Responsive Design']
-    },
-    {
       title: 'Tools & DevOps',
       icon: <Shield className="w-6 h-6" />,
       color: 'orange',

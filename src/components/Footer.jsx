@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
               <Code className="w-8 h-8 text-primary-400 mr-3" />
-              <h3 className="text-2xl font-bold">DevTeam</h3>
+              <h3 className="text-2xl font-bold">SiteLik</h3>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               We are a passionate team of developers and designers creating 

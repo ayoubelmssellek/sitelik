@@ -3,13 +3,6 @@ import { Code, Palette, Search, ShoppingCart, Smartphone, Zap } from 'lucide-rea
 const Services = () => {
   const services = [
     {
-      icon: <Code className="w-12 h-12" />,
-      title: 'Web Development',
-      description: 'Custom websites and web applications built with modern technologies like React, Laravel, and more.',
-      features: ['Responsive Design', 'Fast Loading', 'SEO Optimized', 'Cross-browser Compatible'],
-      color: 'primary'
-    },
-    {
       icon: <Palette className="w-12 h-12" />,
       title: 'UI/UX Design',
       description: 'Beautiful, intuitive designs that provide exceptional user experiences and drive conversions.',
@@ -29,13 +22,6 @@ const Services = () => {
       description: 'Complete online stores with payment integration, inventory management, and admin panels.',
       features: ['Payment Integration', 'Inventory Management', 'Order Tracking', 'Admin Dashboard'],
       color: 'blue'
-    },
-    {
-      icon: <Smartphone className="w-12 h-12" />,
-      title: 'Mobile Development',
-      description: 'Native and cross-platform mobile applications for iOS and Android devices.',
-      features: ['React Native', 'Flutter', 'Progressive Web Apps', 'App Store Deployment'],
-      color: 'green'
     },
     {
       icon: <Zap className="w-12 h-12" />,

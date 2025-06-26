@@ -2,9 +2,9 @@ import { Users, Award, Clock, Coffee } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: <Users className="w-8 h-8" />, number: '50+', label: 'Happy Clients' },
-    { icon: <Award className="w-8 h-8" />, number: '100+', label: 'Projects Completed' },
-    { icon: <Clock className="w-8 h-8" />, number: '3+', label: 'Years Experience' },
+    { icon: <Users className="w-8 h-8" />, number: '20+', label: 'Happy Clients' },
+    { icon: <Award className="w-8 h-8" />, number: '15+', label: 'Projects Completed' },
+    { icon: <Clock className="w-8 h-8" />, number: '2+', label: 'Years Experience' },
     { icon: <Coffee className="w-8 h-8" />, number: '1000+', label: 'Cups of Coffee' },
   ];
 
