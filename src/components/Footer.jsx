@@ -1,4 +1,4 @@
-import { Code, Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
+import { Code, Mail, Phone, MapPin, Github, Instagram} from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,6 @@ const Footer = () => {
     ],
     company: [
       { name: 'About Us', href: '#about' },
-      { name: 'Our Team', href: '#about' },
       { name: 'Projects', href: '#projects' },
       { name: 'Contact', href: '#contact' }
     ],
@@ -25,9 +24,7 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, href: '#', name: 'GitHub' },
-    { icon: <Linkedin className="w-5 h-5" />, href: '#', name: 'LinkedIn' },
-    { icon: <Twitter className="w-5 h-5" />, href: '#', name: 'Twitter' }
+    { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/orama_dev/', name: 'Instagram' },
   ];
 
   return (
@@ -51,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-4 h-4 mr-3 text-primary-400" />
-                <span>+212 6XX XXX XXX</span>
+                <span>+212 752 33& 434</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-4 h-4 mr-3 text-primary-400" />

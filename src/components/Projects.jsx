@@ -111,14 +111,14 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <button className="flex-1 bg-primary-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 flex items-center justify-center gap-2">
+                  {/* <button className="flex-1 bg-primary-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 flex items-center justify-center gap-2">
                     <ExternalLink className="w-4 h-4" />
                     View Live
                   </button>
                   <button className="flex-1 border-2 border-gray-300 text-gray-700 py-2 px-4 rounded-lg font-semibold hover:border-gray-400 transition-colors duration-200 flex items-center justify-center gap-2">
                     <Github className="w-4 h-4" />
                     Code
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

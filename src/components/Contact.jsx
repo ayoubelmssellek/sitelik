@@ -62,14 +62,14 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      content: '+212 6XX XXX XXX',
-      link: 'tel:+212600000000'
+      content: '+212 752 331 434',
+      link: 'tel:+212752331434'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
       content: 'Morocco',
-      link: '#'
+      
     }
   ];
 
@@ -241,7 +241,7 @@ const Contact = () => {
               <h4 className="text-xl font-bold text-gray-900 mb-6">Quick Contact</h4>
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/212600000000"
+                  href="https://wa.me/+212752331434"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2"

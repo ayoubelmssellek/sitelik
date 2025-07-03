@@ -110,9 +110,9 @@ const Services = () => {
                   ))}
                 </ul>
                 
-                <button className={`w-full ${colorClasses.button} text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200`}>
+                {/* <button className={`w-full ${colorClasses.button} text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200`}>
                   Learn More
-                </button>
+                </button> */}
               </div>
             );
           })}
