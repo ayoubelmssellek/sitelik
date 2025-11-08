@@ -241,7 +241,7 @@ const Contact = () => {
               <h4 className="text-xl font-bold text-gray-900 mb-6">Quick Contact</h4>
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/+212752331434"
+                  href="https://wa.me/+212752331404"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2"
